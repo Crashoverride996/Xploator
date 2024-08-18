@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/xploator.dir/src/main.cpp.o CMakeFiles/xploator.dir/src/utils.cpp.o -o xploator  /usr/lib/libcurl.so

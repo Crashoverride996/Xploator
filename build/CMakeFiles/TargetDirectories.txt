@@ -1,0 +1,3 @@
+/home/supre/Desktop/Projects/C++/Xploator/build/CMakeFiles/Xploator.dir
+/home/supre/Desktop/Projects/C++/Xploator/build/CMakeFiles/edit_cache.dir
+/home/supre/Desktop/Projects/C++/Xploator/build/CMakeFiles/rebuild_cache.dir

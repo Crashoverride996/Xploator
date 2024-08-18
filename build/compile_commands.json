@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/supre/Desktop/Projects/C++/Xploator/build",
+  "command": "/usr/bin/c++ -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/supre/Desktop/Projects/C++/Xploator/include -g -std=gnu++20 -o CMakeFiles/Xploator.dir/src/client.cpp.o -c /home/supre/Desktop/Projects/C++/Xploator/src/client.cpp",
+  "file": "/home/supre/Desktop/Projects/C++/Xploator/src/client.cpp",
+  "output": "CMakeFiles/Xploator.dir/src/client.cpp.o"
+},
+{
+  "directory": "/home/supre/Desktop/Projects/C++/Xploator/build",
+  "command": "/usr/bin/c++ -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/supre/Desktop/Projects/C++/Xploator/include -g -std=gnu++20 -o CMakeFiles/Xploator.dir/src/main.cpp.o -c /home/supre/Desktop/Projects/C++/Xploator/src/main.cpp",
+  "file": "/home/supre/Desktop/Projects/C++/Xploator/src/main.cpp",
+  "output": "CMakeFiles/Xploator.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/supre/Desktop/Projects/C++/Xploator/build",
+  "command": "/usr/bin/c++ -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/supre/Desktop/Projects/C++/Xploator/include -g -std=gnu++20 -o CMakeFiles/Xploator.dir/src/scrapper.cpp.o -c /home/supre/Desktop/Projects/C++/Xploator/src/scrapper.cpp",
+  "file": "/home/supre/Desktop/Projects/C++/Xploator/src/scrapper.cpp",
+  "output": "CMakeFiles/Xploator.dir/src/scrapper.cpp.o"
+},
+{
+  "directory": "/home/supre/Desktop/Projects/C++/Xploator/build",
+  "command": "/usr/bin/c++ -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/supre/Desktop/Projects/C++/Xploator/include -g -std=gnu++20 -o CMakeFiles/Xploator.dir/src/server.cpp.o -c /home/supre/Desktop/Projects/C++/Xploator/src/server.cpp",
+  "file": "/home/supre/Desktop/Projects/C++/Xploator/src/server.cpp",
+  "output": "CMakeFiles/Xploator.dir/src/server.cpp.o"
+},
+{
+  "directory": "/home/supre/Desktop/Projects/C++/Xploator/build",
+  "command": "/usr/bin/c++ -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/supre/Desktop/Projects/C++/Xploator/include -g -std=gnu++20 -o CMakeFiles/Xploator.dir/src/utils.cpp.o -c /home/supre/Desktop/Projects/C++/Xploator/src/utils.cpp",
+  "file": "/home/supre/Desktop/Projects/C++/Xploator/src/utils.cpp",
+  "output": "CMakeFiles/Xploator.dir/src/utils.cpp.o"
+}
+]

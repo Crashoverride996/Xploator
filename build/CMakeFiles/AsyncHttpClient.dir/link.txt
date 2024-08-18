@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/AsyncHttpClient.dir/src/main.cpp.o CMakeFiles/AsyncHttpClient.dir/src/scrapper.cpp.o -o AsyncHttpClient  /usr/lib/libboost_system.so.1.83.0 /usr/lib/libcurl.so -lgumbo
