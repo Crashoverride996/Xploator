@@ -2,7 +2,7 @@
 
 int main() {
     //std::vector<std::string> urls = {"mixpakrecords.com", "newyorkvoices.com", "jewelswebs.com", "jojomayer.com"};
-    std::vector<Website> websites = {Website{"mixpakrecords.com"}};
+    std::vector<Website> websites = {Website{"newyorkvoices.com"}};
     boost::asio::io_context io_context;
     for (auto& website : websites) {
         try {
