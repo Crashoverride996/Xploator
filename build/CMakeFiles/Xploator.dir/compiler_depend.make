@@ -2793,6 +2793,35 @@ CMakeFiles/Xploator.dir/src/scrapper.cpp.o: /home/supre/Desktop/Projects/C++/Xpl
   /usr/include/boost/asio/signal_set.hpp \
   /usr/include/boost/asio/signal_set_base.hpp \
   /usr/include/boost/asio/socket_base.hpp \
+  /usr/include/boost/asio/ssl.hpp \
+  /usr/include/boost/asio/ssl/context.hpp \
+  /usr/include/boost/asio/ssl/context_base.hpp \
+  /usr/include/boost/asio/ssl/detail/buffered_handshake_op.hpp \
+  /usr/include/boost/asio/ssl/detail/engine.hpp \
+  /usr/include/boost/asio/ssl/detail/handshake_op.hpp \
+  /usr/include/boost/asio/ssl/detail/impl/engine.ipp \
+  /usr/include/boost/asio/ssl/detail/impl/openssl_init.ipp \
+  /usr/include/boost/asio/ssl/detail/io.hpp \
+  /usr/include/boost/asio/ssl/detail/openssl_init.hpp \
+  /usr/include/boost/asio/ssl/detail/openssl_types.hpp \
+  /usr/include/boost/asio/ssl/detail/password_callback.hpp \
+  /usr/include/boost/asio/ssl/detail/read_op.hpp \
+  /usr/include/boost/asio/ssl/detail/shutdown_op.hpp \
+  /usr/include/boost/asio/ssl/detail/stream_core.hpp \
+  /usr/include/boost/asio/ssl/detail/verify_callback.hpp \
+  /usr/include/boost/asio/ssl/detail/write_op.hpp \
+  /usr/include/boost/asio/ssl/error.hpp \
+  /usr/include/boost/asio/ssl/host_name_verification.hpp \
+  /usr/include/boost/asio/ssl/impl/context.hpp \
+  /usr/include/boost/asio/ssl/impl/context.ipp \
+  /usr/include/boost/asio/ssl/impl/error.ipp \
+  /usr/include/boost/asio/ssl/impl/host_name_verification.ipp \
+  /usr/include/boost/asio/ssl/impl/rfc2818_verification.ipp \
+  /usr/include/boost/asio/ssl/rfc2818_verification.hpp \
+  /usr/include/boost/asio/ssl/stream.hpp \
+  /usr/include/boost/asio/ssl/stream_base.hpp \
+  /usr/include/boost/asio/ssl/verify_context.hpp \
+  /usr/include/boost/asio/ssl/verify_mode.hpp \
   /usr/include/boost/asio/static_thread_pool.hpp \
   /usr/include/boost/asio/steady_timer.hpp \
   /usr/include/boost/asio/strand.hpp \
@@ -4069,6 +4098,7 @@ CMakeFiles/Xploator.dir/src/scrapper.cpp.o: /home/supre/Desktop/Projects/C++/Xpl
   /usr/include/c++/14.1.1/sstream \
   /usr/include/c++/14.1.1/stack \
   /usr/include/c++/14.1.1/stdexcept \
+  /usr/include/c++/14.1.1/stdlib.h \
   /usr/include/c++/14.1.1/stop_token \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
@@ -4110,16 +4140,6 @@ CMakeFiles/Xploator.dir/src/scrapper.cpp.o: /home/supre/Desktop/Projects/C++/Xpl
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
-  /usr/include/curl/curl.h \
-  /usr/include/curl/curlver.h \
-  /usr/include/curl/easy.h \
-  /usr/include/curl/header.h \
-  /usr/include/curl/mprintf.h \
-  /usr/include/curl/multi.h \
-  /usr/include/curl/options.h \
-  /usr/include/curl/system.h \
-  /usr/include/curl/urlapi.h \
-  /usr/include/curl/websockets.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
   /usr/include/fcntl.h \
@@ -4146,6 +4166,82 @@ CMakeFiles/Xploator.dir/src/scrapper.cpp.o: /home/supre/Desktop/Projects/C++/Xpl
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
   /usr/include/netinet/tcp.h \
+  /usr/include/openssl/asn1.h \
+  /usr/include/openssl/asn1err.h \
+  /usr/include/openssl/async.h \
+  /usr/include/openssl/asyncerr.h \
+  /usr/include/openssl/bio.h \
+  /usr/include/openssl/bioerr.h \
+  /usr/include/openssl/bn.h \
+  /usr/include/openssl/bnerr.h \
+  /usr/include/openssl/buffer.h \
+  /usr/include/openssl/buffererr.h \
+  /usr/include/openssl/comp.h \
+  /usr/include/openssl/comperr.h \
+  /usr/include/openssl/conf.h \
+  /usr/include/openssl/conferr.h \
+  /usr/include/openssl/configuration.h \
+  /usr/include/openssl/conftypes.h \
+  /usr/include/openssl/core.h \
+  /usr/include/openssl/core_dispatch.h \
+  /usr/include/openssl/crypto.h \
+  /usr/include/openssl/cryptoerr.h \
+  /usr/include/openssl/cryptoerr_legacy.h \
+  /usr/include/openssl/ct.h \
+  /usr/include/openssl/cterr.h \
+  /usr/include/openssl/dh.h \
+  /usr/include/openssl/dherr.h \
+  /usr/include/openssl/dsa.h \
+  /usr/include/openssl/dsaerr.h \
+  /usr/include/openssl/dtls1.h \
+  /usr/include/openssl/e_os2.h \
+  /usr/include/openssl/e_ostime.h \
+  /usr/include/openssl/ec.h \
+  /usr/include/openssl/ecerr.h \
+  /usr/include/openssl/engine.h \
+  /usr/include/openssl/engineerr.h \
+  /usr/include/openssl/err.h \
+  /usr/include/openssl/evp.h \
+  /usr/include/openssl/evperr.h \
+  /usr/include/openssl/hmac.h \
+  /usr/include/openssl/http.h \
+  /usr/include/openssl/lhash.h \
+  /usr/include/openssl/macros.h \
+  /usr/include/openssl/obj_mac.h \
+  /usr/include/openssl/objects.h \
+  /usr/include/openssl/objectserr.h \
+  /usr/include/openssl/opensslconf.h \
+  /usr/include/openssl/opensslv.h \
+  /usr/include/openssl/params.h \
+  /usr/include/openssl/pem.h \
+  /usr/include/openssl/pemerr.h \
+  /usr/include/openssl/pkcs7.h \
+  /usr/include/openssl/pkcs7err.h \
+  /usr/include/openssl/prov_ssl.h \
+  /usr/include/openssl/quic.h \
+  /usr/include/openssl/rand.h \
+  /usr/include/openssl/randerr.h \
+  /usr/include/openssl/rsa.h \
+  /usr/include/openssl/rsaerr.h \
+  /usr/include/openssl/safestack.h \
+  /usr/include/openssl/sha.h \
+  /usr/include/openssl/srtp.h \
+  /usr/include/openssl/ssl.h \
+  /usr/include/openssl/ssl2.h \
+  /usr/include/openssl/ssl3.h \
+  /usr/include/openssl/sslerr.h \
+  /usr/include/openssl/sslerr_legacy.h \
+  /usr/include/openssl/stack.h \
+  /usr/include/openssl/symhacks.h \
+  /usr/include/openssl/tls1.h \
+  /usr/include/openssl/types.h \
+  /usr/include/openssl/ui.h \
+  /usr/include/openssl/uierr.h \
+  /usr/include/openssl/x509.h \
+  /usr/include/openssl/x509_vfy.h \
+  /usr/include/openssl/x509err.h \
+  /usr/include/openssl/x509v3.h \
+  /usr/include/openssl/x509v3err.h \
   /usr/include/poll.h \
   /usr/include/pthread.h \
   /usr/include/rpc/netdb.h \
@@ -6320,19 +6416,85 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /home/supre/Desktop/Projects/C++/Xploator/src/utils.cpp:
 
-/usr/include/curl/urlapi.h:
+/usr/include/openssl/x509err.h:
 
-/usr/include/curl/system.h:
+/usr/include/openssl/x509_vfy.h:
 
-/usr/include/curl/multi.h:
+/usr/include/openssl/x509.h:
 
-/usr/include/curl/mprintf.h:
+/usr/include/openssl/uierr.h:
 
-/usr/include/curl/header.h:
+/usr/include/openssl/ui.h:
 
-/usr/include/curl/easy.h:
+/usr/include/openssl/symhacks.h:
 
-/usr/include/curl/curlver.h:
+/usr/include/openssl/sslerr_legacy.h:
+
+/usr/include/openssl/sslerr.h:
+
+/usr/include/openssl/srtp.h:
+
+/usr/include/openssl/rsaerr.h:
+
+/usr/include/openssl/rsa.h:
+
+/usr/include/openssl/rand.h:
+
+/usr/include/openssl/quic.h:
+
+/usr/include/openssl/pkcs7.h:
+
+/usr/include/openssl/pemerr.h:
+
+/usr/include/openssl/params.h:
+
+/usr/include/openssl/opensslv.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/obj_mac.h:
+
+/usr/include/openssl/macros.h:
+
+/usr/include/openssl/http.h:
+
+/usr/include/openssl/evp.h:
+
+/usr/include/openssl/err.h:
+
+/usr/include/openssl/ecerr.h:
+
+/usr/include/openssl/ec.h:
+
+/usr/include/openssl/e_os2.h:
+
+/usr/include/openssl/dsa.h:
+
+/usr/include/openssl/dherr.h:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/openssl/cterr.h:
+
+/usr/include/openssl/ct.h:
+
+/usr/include/openssl/cryptoerr_legacy.h:
+
+/usr/include/openssl/cryptoerr.h:
+
+/usr/include/openssl/core_dispatch.h:
+
+/usr/include/openssl/conftypes.h:
+
+/usr/include/openssl/comp.h:
+
+/usr/include/openssl/bnerr.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/include/openssl/asyncerr.h:
+
+/usr/include/openssl/asn1err.h:
 
 /usr/include/c++/14.1.1/stack:
 
@@ -6341,6 +6503,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/c++/14.1.1/bitset:
 
 /usr/include/c++/14.1.1/bits/stl_stack.h:
+
+/usr/include/openssl/lhash.h:
 
 /usr/include/c++/14.1.1/bits/stl_map.h:
 
@@ -6353,6 +6517,24 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/c++/14.1.1/bits/regex_compiler.tcc:
 
 /usr/include/c++/14.1.1/bits/regex_compiler.h:
+
+/usr/include/boost/asio/ssl/verify_mode.hpp:
+
+/usr/include/boost/asio/ssl/stream.hpp:
+
+/usr/include/boost/asio/ssl/rfc2818_verification.hpp:
+
+/usr/include/boost/asio/ssl/impl/context.ipp:
+
+/usr/include/boost/asio/ssl/host_name_verification.hpp:
+
+/usr/include/boost/asio/ssl/detail/shutdown_op.hpp:
+
+/usr/include/boost/asio/ssl/detail/impl/engine.ipp:
+
+/usr/include/boost/asio/ssl/detail/buffered_handshake_op.hpp:
+
+/usr/include/boost/asio/ssl/context_base.hpp:
 
 /usr/include/sys/timerfd.h:
 
@@ -6414,6 +6596,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/c++/14.1.1/cmath:
 
+/usr/include/openssl/ssl3.h:
+
 /usr/include/c++/14.1.1/bits/std_function.h:
 
 /usr/include/c++/14.1.1/bits/specfun.h:
@@ -6465,6 +6649,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/type_traits/is_signed.hpp:
 
 /usr/include/boost/type_traits/is_scalar.hpp:
+
+/usr/include/boost/asio/ssl/detail/stream_core.hpp:
 
 /usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
@@ -6566,6 +6752,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
 
+/usr/include/openssl/asn1.h:
+
 /usr/include/boost/type_traits/detail/has_postfix_operator.hpp:
 
 /usr/include/boost/type_traits/detail/has_binary_operator.hpp:
@@ -6591,6 +6779,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/type_traits/add_reference.hpp:
 
 /usr/include/boost/type_traits/add_pointer.hpp:
+
+/usr/include/openssl/dtls1.h:
 
 /usr/include/boost/type_traits/has_logical_and.hpp:
 
@@ -6660,6 +6850,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
 
+/usr/include/openssl/sha.h:
+
 /usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
 /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
@@ -6699,6 +6891,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/preprocessor/punctuation/is_begin_parens.hpp:
 
 /usr/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp:
+
+/usr/include/openssl/conferr.h:
 
 /usr/include/boost/system/detail/system_category_impl.hpp:
 
@@ -6758,7 +6952,11 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/preprocessor/array/size.hpp:
 
+/usr/include/openssl/pem.h:
+
 /usr/include/boost/preprocessor/array/elem.hpp:
+
+/usr/include/openssl/evperr.h:
 
 /usr/include/boost/preprocessor/array/data.hpp:
 
@@ -6831,6 +7029,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/predef/make.h:
 
 /usr/include/boost/predef/library/std/vacpp.h:
+
+/usr/include/openssl/x509v3err.h:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
@@ -6994,6 +7194,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/optional/detail/optional_reference_spec.hpp:
 
+/usr/include/boost/asio/ssl/detail/openssl_types.hpp:
+
 /usr/include/boost/smart_ptr/make_shared.hpp:
 
 /usr/include/boost/optional/detail/optional_config.hpp:
@@ -7026,6 +7228,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/numeric/conversion/cast.hpp:
 
+/usr/include/boost/asio/ssl/detail/openssl_init.hpp:
+
 /usr/include/boost/none_t.hpp:
 
 /usr/include/boost/mpl/void_fwd.hpp:
@@ -7057,6 +7261,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/mpl/identity.hpp:
 
 /usr/include/boost/mpl/equal_to.hpp:
+
+/usr/include/boost/asio/ssl/detail/password_callback.hpp:
 
 /usr/include/boost/mpl/bool_fwd.hpp:
 
@@ -7094,6 +7300,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/mpl/aux_/na.hpp:
 
+/usr/include/boost/asio/ssl/verify_context.hpp:
+
 /usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_support.hpp:
@@ -7121,6 +7329,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
+
+/usr/include/boost/asio/ssl/impl/rfc2818_verification.ipp:
 
 /usr/include/boost/mpl/aux_/config/intel.hpp:
 
@@ -7164,6 +7374,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/mp11/integer_sequence.hpp:
 
+/usr/include/openssl/configuration.h:
+
 /usr/include/boost/mp11/function.hpp:
 
 /usr/include/boost/mp11/detail/mp_value.hpp:
@@ -7203,6 +7415,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/move/detail/std_ns_end.hpp:
 
 /usr/include/boost/move/detail/std_ns_begin.hpp:
+
+/usr/include/boost/asio/ssl/detail/read_op.hpp:
 
 /usr/include/boost/move/detail/pointer_element.hpp:
 
@@ -7248,6 +7462,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/intrusive/detail/uncast.hpp:
 
+/usr/include/openssl/safestack.h:
+
 /usr/include/boost/intrusive/detail/tree_value_compare.hpp:
 
 /usr/include/boost/intrusive/detail/tree_node.hpp:
@@ -7267,6 +7483,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/preprocessor/empty.hpp:
 
 /usr/include/boost/intrusive/detail/node_holder.hpp:
+
+/usr/include/openssl/tls1.h:
 
 /usr/include/boost/type_traits/is_unscoped_enum.hpp:
 
@@ -7297,6 +7515,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/mp11/detail/mp_with_index.hpp:
 
 /usr/include/boost/intrusive/detail/generic_hook.hpp:
+
+/usr/include/boost/asio/ssl/detail/impl/openssl_init.ipp:
 
 /usr/include/boost/intrusive/detail/exception_disposer.hpp:
 
@@ -7492,6 +7712,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/asio/detail/impl/descriptor_ops.ipp:
 
+/usr/include/openssl/objectserr.h:
+
 /usr/include/boost/mp11/detail/mp_fold.hpp:
 
 /usr/include/bits/struct_stat.h:
@@ -7535,6 +7757,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/detail/posix_static_mutex.hpp:
 
 /usr/include/asm-generic/sockios.h:
+
+/usr/include/openssl/ssl.h:
 
 /usr/include/boost/asio/detail/reactive_socket_connect_op.hpp:
 
@@ -7666,8 +7890,6 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/asio/ip/address.hpp:
 
-/usr/include/curl/websockets.h:
-
 /usr/include/bits/types/stack_t.h:
 
 /usr/include/boost/beast/core/detail/pcg.hpp:
@@ -7752,6 +7974,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/asio/execution/receiver.hpp:
 
+/usr/include/openssl/types.h:
+
 /usr/include/boost/mpl/aux_/config/compiler.hpp:
 
 /usr/include/boost/beast/http/impl/message.hpp:
@@ -7769,6 +7993,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/c++/14.1.1/cstdarg:
 
 /usr/include/bits/sigaction.h:
+
+/usr/include/openssl/randerr.h:
 
 /usr/include/boost/asio/detail/impl/timer_queue_set.ipp:
 
@@ -7812,7 +8038,11 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/asio/execution/connect.hpp:
 
+/usr/include/boost/asio/ssl/detail/io.hpp:
+
 /usr/include/boost/asio/generic/stream_protocol.hpp:
+
+/usr/include/openssl/buffererr.h:
 
 /usr/include/boost/asio/execution/set_error.hpp:
 
@@ -7836,6 +8066,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stddef.h:
 
+/usr/include/openssl/conf.h:
+
 /usr/include/c++/14.1.1/cstdint:
 
 /usr/include/boost/preprocessor/comparison/not_equal.hpp:
@@ -7843,6 +8075,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/limits.h:
 
 /usr/include/boost/asio/impl/read_at.hpp:
+
+/usr/include/boost/asio/ssl/impl/error.ipp:
 
 /usr/include/syscall.h:
 
@@ -7891,6 +8125,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/intrusive/set.hpp:
 
 /usr/include/boost/asio/detail/impl/reactive_descriptor_service.ipp:
+
+/usr/include/openssl/async.h:
 
 /usr/include/asm/ioctl.h:
 
@@ -8054,6 +8290,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/beast/core/detail/flat_stream.hpp:
 
+/usr/include/boost/asio/ssl/error.hpp:
+
 /usr/include/boost/beast/core/error.hpp:
 
 /usr/include/bits/xopen_lim.h:
@@ -8070,17 +8308,19 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/stdio.h:
 
+/usr/include/openssl/e_ostime.h:
+
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/c++/14.1.1/bits/allocator.h:
 
 /usr/include/c++/14.1.1/bits/quoted_string.h:
 
-/usr/include/curl/options.h:
-
 /usr/include/boost/predef/platform/android.h:
 
 /usr/include/boost/asio/detail/config.hpp:
+
+/usr/include/openssl/bioerr.h:
 
 /usr/include/bits/math-vector.h:
 
@@ -8196,6 +8436,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/c++/14.1.1/bits/locale_classes.h:
 
+/usr/include/boost/asio/ssl/detail/handshake_op.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/syslimits.h:
 
 /usr/include/boost/mp11/detail/mp_map_find.hpp:
@@ -8271,6 +8513,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/libintl.h:
 
 /usr/include/bits/getopt_core.h:
+
+/usr/include/boost/asio/ssl/context.hpp:
 
 /usr/include/boost/date_time/time_clock.hpp:
 
@@ -8427,6 +8671,10 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/detail/epoll_reactor.hpp:
 
 /usr/include/bits/termios-c_cc.h:
+
+/usr/include/openssl/hmac.h:
+
+/usr/include/c++/14.1.1/stdlib.h:
 
 /usr/include/boost/type_traits/is_object.hpp:
 
@@ -8698,6 +8946,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h:
 
+/usr/include/boost/asio/ssl.hpp:
+
 /usr/include/sys/un.h:
 
 /usr/include/bits/typesizes.h:
@@ -8746,9 +8996,13 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/c++/14.1.1/bits/streambuf.tcc:
 
+/usr/include/openssl/prov_ssl.h:
+
 /usr/include/boost/asio/detail/strand_service.hpp:
 
 /usr/include/boost/asio/detail/timer_queue_ptime.hpp:
+
+/usr/include/boost/asio/ssl/detail/write_op.hpp:
 
 /usr/include/boost/asio/buffer_registration.hpp:
 
@@ -8775,6 +9029,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/boost/asio/associated_allocator.hpp:
+
+/usr/include/openssl/pkcs7err.h:
 
 /usr/include/stdlib.h:
 
@@ -8890,6 +9146,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/c++/14.1.1/cerrno:
 
+/usr/include/boost/asio/ssl/impl/host_name_verification.ipp:
+
 /usr/include/c++/14.1.1/sstream:
 
 /usr/include/boost/beast/websocket/impl/read.hpp:
@@ -8910,9 +9168,13 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/linux/posix_types.h:
 
+/usr/include/openssl/stack.h:
+
 /usr/include/boost/predef/architecture/riscv.h:
 
 /usr/include/c++/14.1.1/limits:
+
+/usr/include/openssl/crypto.h:
 
 /usr/include/boost/predef/language/objc.h:
 
@@ -8929,6 +9191,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/detail/impl/strand_executor_service.ipp:
 
 /usr/include/boost/asio/execution/outstanding_work.hpp:
+
+/usr/include/openssl/ssl2.h:
 
 /usr/include/boost/asio/local/stream_protocol.hpp:
 
@@ -9054,6 +9318,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/container_hash/is_contiguous_range.hpp:
 
+/usr/include/openssl/x509v3.h:
+
 /usr/include/boost/predef/compiler/kai.h:
 
 /usr/include/sys/time.h:
@@ -9113,6 +9379,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/detail/resolver_service_base.hpp:
 
 /usr/include/boost/asio/detail/scheduler_operation.hpp:
+
+/usr/include/boost/asio/ssl/detail/verify_callback.hpp:
 
 /usr/include/c++/14.1.1/bits/unicode.h:
 
@@ -9258,6 +9526,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/beast/core/detail/buffers_range_adaptor.hpp:
 
+/usr/include/boost/asio/ssl/impl/context.hpp:
+
 /usr/include/boost/asio/detail/thread_info_base.hpp:
 
 /usr/include/boost/asio/execution/detail/as_operation.hpp:
@@ -9280,6 +9550,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/asio/io_context.hpp:
 
+/usr/include/openssl/engineerr.h:
+
 /usr/include/boost/beast/core/impl/flat_static_buffer.hpp:
 
 /usr/include/stdint.h:
@@ -9299,6 +9571,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/execution/occupancy.hpp:
 
 /usr/include/boost/asio/execution/prefer_only.hpp:
+
+/usr/include/openssl/bio.h:
 
 /usr/include/boost/asio/execution/schedule.hpp:
 
@@ -9327,6 +9601,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/impl/prepend.hpp:
 
 /usr/include/boost/asio/generic/basic_endpoint.hpp:
+
+/usr/include/openssl/core.h:
 
 /usr/include/boost/asio/basic_signal_set.hpp:
 
@@ -9373,6 +9649,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/impl/consign.hpp:
 
 /usr/include/boost/beast/core/async_base.hpp:
+
+/usr/include/openssl/buffer.h:
 
 /usr/include/boost/beast/core/impl/saved_handler.hpp:
 
@@ -9558,6 +9836,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/asio/ip/resolver_base.hpp:
 
+/usr/include/openssl/comperr.h:
+
 /usr/include/boost/beast/http/impl/error.ipp:
 
 /usr/include/boost/asio/execution/relationship.hpp:
@@ -9585,6 +9865,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/traits/start_member.hpp:
 
 /usr/include/boost/asio/ip/unicast.hpp:
+
+/usr/include/openssl/engine.h:
 
 /usr/include/boost/asio/awaitable.hpp:
 
@@ -9671,8 +9953,6 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/asio/detail/timer_queue.hpp:
 
 /usr/include/boost/asio/traits/bulk_execute_free.hpp:
-
-/usr/include/curl/curl.h:
 
 /usr/include/boost/asio/traits/connect_free.hpp:
 
@@ -9820,6 +10100,10 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 
 /usr/include/boost/beast/http/impl/status.ipp:
 
+/usr/include/openssl/objects.h:
+
+/usr/include/boost/asio/ssl/detail/engine.hpp:
+
 /usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/boost/beast/core/detail/ostream.hpp:
@@ -9963,6 +10247,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/beast/http.hpp:
 
 /usr/include/boost/beast/http/basic_dynamic_body.hpp:
+
+/usr/include/boost/asio/ssl/stream_base.hpp:
 
 /usr/include/boost/predef/architecture/x86/64.h:
 
@@ -10149,6 +10435,8 @@ CMakeFiles/Xploator.dir/src/utils.cpp.o: /home/supre/Desktop/Projects/C++/Xploat
 /usr/include/boost/container_hash/detail/hash_range.hpp:
 
 /usr/include/boost/container_hash/detail/mulx.hpp:
+
+/usr/include/openssl/dsaerr.h:
 
 /usr/include/boost/type_traits/has_greater_equal.hpp:
 

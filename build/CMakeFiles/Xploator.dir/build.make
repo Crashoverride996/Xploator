@@ -158,6 +158,8 @@ Xploator: CMakeFiles/Xploator.dir/src/utils.cpp.o
 Xploator: CMakeFiles/Xploator.dir/build.make
 Xploator: /usr/lib/libboost_system.so.1.83.0
 Xploator: /usr/lib/libcurl.so
+Xploator: /usr/lib/libssl.so
+Xploator: /usr/lib/libcrypto.so
 Xploator: CMakeFiles/Xploator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/supre/Desktop/Projects/C++/Xploator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Xploator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Xploator.dir/link.txt --verbose=$(VERBOSE)
